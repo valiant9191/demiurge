@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+
 }
 .background{
   width: 100%;
   height: 600px;
   flex-wrap: nowrap;
-  background-image: url('./assets/foto/different/sanfrancisco\ residence\ kitchen.jpg');
+  background-image: url('./assets/sanfrancisco\ residence\ kitchen.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -26,7 +28,7 @@
     background-size: cover;
     box-shadow: 4px 4px 8px 0px rgba(76, 155, 216, 0.401);
     margin: 10px 0px;
-    background-image: url('./assets/foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture\ \(2\).jpg');  
+    background-image: url('./assets/contemporary-home-office-furniture\ \(2\).jpg');  
   }
   
 

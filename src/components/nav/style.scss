@@ -1,8 +1,7 @@
 
 
   .navbar{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     height: 50px;
     width: 100%;
@@ -12,6 +11,7 @@
     justify-content: space-between;
     
     & li{
+      font-weight: bolder;
       display: flex;
       flex-direction: column;
       justify-content: center;

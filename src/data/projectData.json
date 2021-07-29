@@ -1,12 +1,188 @@
 {
 "projectData": [
 {
-    "projectName":"Sausalito",
+    "projectName":"20th ave. San Francisco",
     "city":"San Francisco",
     "imageSrc":[
-        "require('../assets/foto/Sausalito Residence San Francisco/contemporary (1).jpg')",
-        "img1"],
-   " description":""
+        "foto/20th ave. San Francisco/home-design (1).jpg",
+        "foto/20th ave. San Francisco/home-design (3).jpg",
+        "foto/20th ave. San Francisco/home-design (4).jpg",
+        "foto/20th ave. San Francisco/home-design.jpg"
+    ],
+   "description":""
 },
-{}
+
+{
+    "projectName":"Cow Hollow Lounge Reception Desk",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (1).jpg",
+        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (2).jpg",
+        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (3).jpg",
+        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (4).jpg",
+        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture.jpg"],
+   "description":""
+},
+
+   {
+       "projectName":"Cow Hollow Residence San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/Cow Hollow Residence San Francisco/home-design.jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (1).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (2).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (3).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (4).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (5).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (6).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (7).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (8).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (9).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (10).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (11).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (12).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (13).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (14).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (15).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (16).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (17).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (18).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (19).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (20).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional (21).jpg",
+        "foto/Cow Hollow Residence San Francisco/traditional.jpg"
+    ],
+   "description":""
+},
+
+   {
+       "projectName":"Duncan str. San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/Duncan str. San Francisco/modern.jpg",
+        "foto/Duncan str. San Francisco/modern (1).jpg",
+        "foto/Duncan str. San Francisco/modern (2).jpg",
+        "foto/Duncan str. San Francisco/modern (3).jpg",
+        "foto/Duncan str. San Francisco/modern (4).jpg",
+        "foto/Duncan str. San Francisco/modern (5).jpg",
+        "foto/Duncan str. San Francisco/modern (6).jpg",
+        "foto/Duncan str. San Francisco/modern (7).jpg",
+        "foto/Duncan str. San Francisco/home-design.jpg",
+        "foto/Duncan str. San Francisco/home-design (1).jpg",
+        "foto/Duncan str. San Francisco/home-design (2).jpg",
+        "foto/Duncan str. San Francisco/home-design (3).jpg"
+        ],
+   "description":""
+},
+
+   {
+       "projectName":"Golden Gate ave. San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/Golden Gate ave. San Francisco/traditional.jpg",
+        "foto/Golden Gate ave. San Francisco/traditional (1).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional (2).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional (3).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional (4).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional-furniture.jpg",
+        "foto/Golden Gate ave. San Francisco/traditional-kitchen-products (1).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional-kitchen-products.jpg"
+        ],
+   "description":""
+},
+
+   {
+       "projectName":"San Carlos Residence",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/San Carlos Residence/contemporary.jpg",
+        "foto/San Carlos Residence/contemporary (1).jpg",
+        "foto/San Carlos Residence/contemporary (2).jpg",
+        "foto/San Carlos Residence/contemporary (3).jpg",
+        "foto/San Carlos Residence/contemporary (4).jpg",
+        "foto/San Carlos Residence/contemporary (5).jpg"
+        ],
+   "description":""
+},
+   {
+       "projectName":"San Francisco Residence Mission District",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/San Francisco Residence Mission District/contemporary.jpg",
+        "foto/San Francisco Residence Mission District/contemporary (1).jpg",
+        "foto/San Francisco Residence Mission District/contemporary (2).jpg",
+        "foto/San Francisco Residence Mission District/contemporary (3).jpg",
+        "foto/San Francisco Residence Mission District/contemporary (4).jpg",
+        "foto/San Francisco Residence Mission District/contemporary (5).jpg",
+        "foto/San Francisco Residence Mission District/contemporary-kitchen.jpg",
+        "foto/San Francisco Residence Mission District/contemporary-kitchen (1).jpg",
+        "foto/San Francisco Residence Mission District/contemporary-kitchen (2).jpg"
+        ],
+   "description":""
+},
+   {
+       "projectName":"San Francisco Residence Mission District 2",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/San Francisco Residence Mission District2/home-design.jpg",
+        "foto/San Francisco Residence Mission District2/home-design (1).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (2).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (3).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (4).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (5).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (6).jpg",
+        "foto/San Francisco Residence Mission District2/home-design (7).jpg"
+        ],
+   "description":""
+},
+   {
+       "projectName":"Sausalito Residence San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/Sausalito Residence San Francisco/contemporary.jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (1).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (2).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (3).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (4).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (5).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (6).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (7).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (8).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (9).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (10).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (11).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (12).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (13).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (14).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (15).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (16).jpg",
+        "foto/Sausalito Residence San Francisco/contemporary (17).jpg"
+        ],
+   "description":""
+},
+   {
+       "projectName":"The Donatello Hotel San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/The Donatello Hotel San Francisco/contemporary.jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (1).jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (2).jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (3).jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (4).jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (5).jpg",
+        "foto/The Donatello Hotel San Francisco/contemporary (6).jpg"
+        ],
+   "description":""
+},
+   {
+       "projectName":"West Clay str. San Francisco",
+    "city":"San Francisco",
+    "imageSrc":[
+        "foto/West Clay str. San Francisco/home-design.jpg",
+        "foto/West Clay str. San Francisco/home-design (1).jpg",
+        "foto/West Clay str. San Francisco/home-design (2).jpg",
+        "foto/West Clay str. San Francisco/home-design (3).jpg",
+        "img1"],
+   "description":""
+}
 ]}
