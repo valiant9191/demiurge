@@ -11,30 +11,7 @@
     background-color: rgba(255, 255, 255, 0.775);
     justify-content: space-between;
     
-    & li{
-      font-weight: bolder;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: auto;
-      align-items: center;
-      cursor: pointer;
-      margin-right:50px;
-      transition: ease-in-out 0.25s ;
-      
-
-      &:hover{
-        color: midnightblue;
-        background-color: rgba(0, 76, 255, 0.095);
-        transform: scale(1.1);
-        border-radius: 50%;
-        text-decoration-line: underline;
-    }
-    &:active{
-      transform: scale(0.9);
-      border-radius: 70%;
-    }
-    }
+    
 
     &-links{
       display: flex;
@@ -44,7 +21,31 @@
       top:15px;
       justify-items: space-between;
       list-style: none;
-      
+      &-hash{
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+        cursor: pointer;
+        margin-right:50px;
+        text-decoration-line: none;
+        transition: ease-in-out 0.25s ;
+        
+  
+        &:hover{
+          color: midnightblue;
+          background-color: rgba(0, 76, 255, 0.095);
+          transform: scale(1.1);
+          border-radius: 50%;
+          text-decoration-line: underline;
+      }
+      &:active{
+        transform: scale(0.9);
+        border-radius: 70%;
+      }
+      }
     }
     &-logo{
       // display: block;

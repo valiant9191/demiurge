@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 
 import './style.scss'
@@ -12,13 +13,12 @@ const Navigation = () => {
 
     <div className='navbar'> 
           <div className='navbar-logo' >
-            <img src={demiurgeLogo}/>
+            <img src={demiurgeLogo} alt='demiurge-logo'/>
           </div>        
-          <ul className='navbar-links'>
-          
-            <li to='#background'>Home</li>
-            <li>Projects</li>
-            <li>Contacts</li>
+          <ul className='navbar-links'>          
+            <HashLink to='#home' className='navbar-links-hash'>Home</HashLink>
+            <HashLink to='#projects' className='navbar-links-hash'>Projects</HashLink>
+            <HashLink to='#contacts' className='navbar-links-hash'>Contacts</HashLink>
           </ul>
           
         </div>
