@@ -1,14 +1,12 @@
 import React,{useState} from 'react'
 import ProjectCard from './projectCard/projectCard'
 import ProjectList from './projectList/projectList'
-// import projectData from  '../../data/projectData.json'
 
 import './style.scss'
 
 const proData =require('../../data/projectData.json')
 const projectData =proData.projectData
 
-console.log()
 const Projects= () => {
 
 

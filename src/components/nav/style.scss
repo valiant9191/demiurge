@@ -1,13 +1,14 @@
 
 
   .navbar{
-    font-size: 25px;
+    font-size: 3vh;
     display: flex;
-    height: 50px;
+    height: 7vh;
     width: 100%;
+    overflow: hidden;
     position:fixed;
     top: 0;
-    // background-color: rgba(245, 222, 179, 0.775);
+    background-color: rgba(255, 255, 255, 0.775);
     justify-content: space-between;
     
     & li{
@@ -15,25 +16,22 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 100px;
+      width: auto;
       align-items: center;
       cursor: pointer;
       margin-right:50px;
       transition: ease-in-out 0.25s ;
-      z-index: 10;
       
 
       &:hover{
         color: midnightblue;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(0, 76, 255, 0.095);
         transform: scale(1.1);
-        width: 120px;
         border-radius: 50%;
         text-decoration-line: underline;
     }
     &:active{
       transform: scale(0.9);
-      width: 100px;
       border-radius: 70%;
     }
     }
@@ -48,4 +46,19 @@
       list-style: none;
       
     }
+    &-logo{
+      // display: block;
+
+      overflow: block;
+      width: auto;
+      height: 100%;
+      margin-right: auto; 
+      margin-left: 200px;     
+      & img{
+        height:100%;
+        width: auto;
+        
+      }
+    }
+
   }
