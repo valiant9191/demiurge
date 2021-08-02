@@ -12,8 +12,13 @@ console.log()
 const Projects= () => {
 
 
-    const [idPro,setId]=useState(0)
-    function click(id){setId(id)}
+    const [idPro,setId]=useState(0);
+    
+
+    function click(id){setId(id)};
+
+
+
 
     return(
         <div className='projectsArea'>

@@ -4,26 +4,13 @@
     "projectName":"20th ave. San Francisco",
     "city":"San Francisco",
     "imageSrc":[
+      "foto/20th ave. San Francisco/home-design (3).jpg",
         "foto/20th ave. San Francisco/home-design (1).jpg",
-        "foto/20th ave. San Francisco/home-design (3).jpg",
         "foto/20th ave. San Francisco/home-design (4).jpg",
         "foto/20th ave. San Francisco/home-design.jpg"
     ],
    "description":""
 },
-
-{
-    "projectName":"Cow Hollow Lounge Reception Desk",
-    "city":"San Francisco",
-    "imageSrc":[
-        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (1).jpg",
-        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (2).jpg",
-        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (3).jpg",
-        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (4).jpg",
-        "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture.jpg"],
-   "description":""
-},
-
    {
        "projectName":"Cow Hollow Residence San Francisco",
     "city":"San Francisco",
@@ -84,8 +71,7 @@
         "foto/Golden Gate ave. San Francisco/traditional (2).jpg",
         "foto/Golden Gate ave. San Francisco/traditional (3).jpg",
         "foto/Golden Gate ave. San Francisco/traditional (4).jpg",
-        "foto/Golden Gate ave. San Francisco/traditional-furniture.jpg",
-        "foto/Golden Gate ave. San Francisco/traditional-kitchen-products (1).jpg",
+        "foto/Golden Gate ave. San Francisco/traditional-furniture.jpg",        
         "foto/Golden Gate ave. San Francisco/traditional-kitchen-products.jpg"
         ],
    "description":""
@@ -95,12 +81,13 @@
        "projectName":"San Carlos Residence",
     "city":"San Francisco",
     "imageSrc":[
-        "foto/San Carlos Residence/contemporary.jpg",
-        "foto/San Carlos Residence/contemporary (1).jpg",
-        "foto/San Carlos Residence/contemporary (2).jpg",
-        "foto/San Carlos Residence/contemporary (3).jpg",
+      "foto/San Carlos Residence/contemporary (2).jpg",
+      "foto/San Carlos Residence/contemporary (3).jpg",
         "foto/San Carlos Residence/contemporary (4).jpg",
-        "foto/San Carlos Residence/contemporary (5).jpg"
+        "foto/San Carlos Residence/contemporary (5).jpg",
+        "foto/San Carlos Residence/contemporary.jpg",
+        "foto/San Carlos Residence/contemporary (1).jpg"
+        
         ],
    "description":""
 },
@@ -108,15 +95,15 @@
        "projectName":"San Francisco Residence Mission District",
     "city":"San Francisco",
     "imageSrc":[
-        "foto/San Francisco Residence Mission District/contemporary.jpg",
-        "foto/San Francisco Residence Mission District/contemporary (1).jpg",
+      "foto/San Francisco Residence Mission District/contemporary-kitchen (2).jpg",
+      "foto/San Francisco Residence Mission District/contemporary-kitchen.jpg",
+      "foto/San Francisco Residence Mission District/contemporary-kitchen (1).jpg",      
+      "foto/San Francisco Residence Mission District/contemporary (1).jpg",
         "foto/San Francisco Residence Mission District/contemporary (2).jpg",
         "foto/San Francisco Residence Mission District/contemporary (3).jpg",
         "foto/San Francisco Residence Mission District/contemporary (4).jpg",
-        "foto/San Francisco Residence Mission District/contemporary (5).jpg",
-        "foto/San Francisco Residence Mission District/contemporary-kitchen.jpg",
-        "foto/San Francisco Residence Mission District/contemporary-kitchen (1).jpg",
-        "foto/San Francisco Residence Mission District/contemporary-kitchen (2).jpg"
+        "foto/San Francisco Residence Mission District/contemporary (5).jpg"
+       
         ],
    "description":""
 },
@@ -169,7 +156,6 @@
         "foto/The Donatello Hotel San Francisco/contemporary (2).jpg",
         "foto/The Donatello Hotel San Francisco/contemporary (3).jpg",
         "foto/The Donatello Hotel San Francisco/contemporary (4).jpg",
-        "foto/The Donatello Hotel San Francisco/contemporary (5).jpg",
         "foto/The Donatello Hotel San Francisco/contemporary (6).jpg"
         ],
    "description":""
@@ -181,8 +167,20 @@
         "foto/West Clay str. San Francisco/home-design.jpg",
         "foto/West Clay str. San Francisco/home-design (1).jpg",
         "foto/West Clay str. San Francisco/home-design (2).jpg",
-        "foto/West Clay str. San Francisco/home-design (3).jpg",
-        "img1"],
+        "foto/West Clay str. San Francisco/home-design (3).jpg"
+        ],
    "description":""
+},
+{
+   "projectName":"Cow Hollow Lounge Reception Desk",
+   "city":"San Francisco",
+   "imageSrc":[
+     "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture.jpg",
+       "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (1).jpg",
+       "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (2).jpg",
+       "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (3).jpg",
+       "foto/Cow Hollow Lounge Reception Desk/contemporary-home-office-furniture (4).jpg"
+       ],
+  "description":""
 }
 ]}

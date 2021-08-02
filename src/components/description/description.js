@@ -9,8 +9,8 @@ const Description = () => {
         <section>
             <div className='description-icon' />
             <div className='description-text'>
-                <h1 className='description-text-title'>Vadzim Boltach</h1>
-                    <p className='description-text-main'>We Create Best</p>
+                <h1 className='description-text-title'>CEO Demiurge - Vadzim Boltach</h1>
+                    <p className='description-text-main'>We Create Best, our Main - Quality!</p>
 
             </div>
             
