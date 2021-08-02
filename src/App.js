@@ -13,6 +13,7 @@ function App() {
         <Description />
       </section>
       <section className='background-2'>
+        
         <Projects/>
       </section>
       <section className='background'>
