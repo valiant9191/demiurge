@@ -10,22 +10,28 @@
     top: 0;
     background-color: rgba(255, 255, 255, 0.775);
     justify-content: space-between;
-    
-    
-
+    z-index: 20;
+    @media only screen and (max-width: 750px) {
+      font-size: 12px;
+      align-items: flex-end;
+      
+    }
     &-links{
       display: flex;
       flex-direction: row;
       position: absolute;
-      right: 0%;
+      right: 0;
       top:15px;
-      justify-items: space-between;
       list-style: none;
+      @media only screen and (max-width: 750px) {
+        flex-direction: column;
+      top:0;
+      width:auto;
+      }
       &-hash{
         color: midnightblue;
         font-weight: bolder;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         width: auto;
         align-items: center;
@@ -33,7 +39,8 @@
         margin-right:50px;
         text-decoration-line: none;
         transition: ease-in-out 0.25s ;
-        
+        @media only screen and (max-width: 750px) {
+left:90%;      }
   
         &:hover{
           color: rgb(10, 10, 61);
@@ -49,13 +56,16 @@
       }
     }
     &-logo{
-      // display: block;
-
       overflow: block;
       width: auto;
       height: 100%;
       margin-right: auto; 
-      margin-left: 200px;     
+      margin-left: 200px; 
+      @media only screen and (max-width: 620px) {
+        margin-left: 165px;
+      }
+      @media only screen and (max-width: 585px) {
+display: none;      }
       & img{
         height:100%;
         width: auto;

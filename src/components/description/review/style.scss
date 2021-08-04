@@ -14,6 +14,12 @@
     align-items: center;
     text-shadow: 4px 4px 3px 1px rgb(0, 0, 0);
     z-index: 5;
+   
+    @media only screen and (max-width: 1000px) {
+        width:200px;
+        margin: 5px;
+        height: 100px;
+    }
 
     &-active{
         position:fixed;
@@ -21,10 +27,16 @@
         right: 50px;
         width: 50%;
         height: 400px;
-        z-index: 10;
+        z-index: 30;
         background: linear-gradient(45deg, rgba(255, 255, 255, 1) 65%, rgba(159, 220, 218, 1) 100% );
 
+        @media only screen and (max-width: 1000px) {
+            right: unset;
+            margin:  20px ;
 
+           
+
+        }
 
     }
 
@@ -37,6 +49,9 @@
         font-style: italic;
         font-weight: bold;
         margin: 5px;
+        @media only screen and (max-width: 500px) {
+            font-size: 10px;
+        }
         }
     }
     &-link{
@@ -66,8 +81,13 @@
         &-img{
             margin: 0 5px;
             height: 30px;
+            width:50%;
             max-width: 80px;
             cursor: pointer;
+            @media only screen and (max-width: 500px) {
+                width:30%;
+                margin-right: 30px;
+            }
             
         }
     }

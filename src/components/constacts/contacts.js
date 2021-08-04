@@ -1,13 +1,18 @@
 import React from 'react'
 
+import './style.scss'
+
+import ContactInfo from './contact-info/contactInfo';
+
 
 const Contacts = () => {
 
 
     return (
-        <div>
-        <h1>Hello Demiurge</h1>
-      <h1>nice try</h1>
+      <div className="cont">
+        
+        <ContactInfo />
+        
       </div>
     )
 }

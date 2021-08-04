@@ -16,7 +16,11 @@ scroll-behavior: smooth;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @media only screen and (max-width: 1000px) {
+    height:auto}
+  
 
+  
   &-2{ 
     display: flex;
     justify-content: center;
@@ -31,12 +35,15 @@ scroll-behavior: smooth;
     box-shadow: 4px 4px 8px 0px rgba(76, 155, 216, 0.401);
     margin: 10px 0px;
     background-image: url('./assets/different/ross residence kitchen(high gross paint).jpg');  
+    @media only screen and (max-width: 700px) {
+      min-height:auto}
   }
   &-3{
     width: 100%;
     height: 100vh;
+    min-height: 700px;
     flex-wrap: nowrap;
-    background-image: url('./assets/sanfrancisco\ residence\ kitchen.jpg');
+    background-image: url('./assets/different/oakland residence solid walnut tabletop.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -47,7 +54,6 @@ scroll-behavior: smooth;
 
 
 }
-
 
 
 
