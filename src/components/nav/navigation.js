@@ -5,7 +5,6 @@ import { HashLink } from 'react-router-hash-link';
 import './style.scss'
 import demiurgeLogo from '../../assets/demiurge-png.png'
 
-// const demiurgeLogo = require('../../assets/demiurge.jpg')
 const Navigation = () => {
 
 

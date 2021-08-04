@@ -49,7 +49,9 @@ function carouselImage(){
         <div className='project'>
             {carouselImage()}               
         <div className='project-description'>
-            {imageSrc.map((el,id)=><div className={`slider slider-${active(id)}`}></div>)}
+            {imageSrc.map((el,id)=>
+                <div key={id} className={`slider slider-${active(id)}` }></div>
+            )}
             
         </div>
     </div>

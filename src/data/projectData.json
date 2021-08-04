@@ -1,4 +1,34 @@
 {
+   "review":{
+      "houzz":[
+         {  "logo":"houzz",
+            "title":"Patricia W.",
+            "text":"Vadzim is an extremely talented craftsman with meticulous attention to detail and quality. He and his team are absolute professionals and completely reliable. Excellence across the board. We initially hired him to do all of the cabinetry in our new home (kitchen cabinets, pantry, floating vanities, custom closets). One and a half years in our new home we wanted some customized pieces and knew exactly where to go. Our floating shelves are solid and have absolute precision, and our new built-in standing desk is better than I could have imagined. Reliable, talented, and wonderful to work through during the entire process from design to installation."
+         },
+         {  "logo":"houzz",
+            "title":"Victor Feygelman",
+            "text":"Demiurg did a great job of designing our kitchen and then building it. He was very patient to all our concerns and questions, and addressed them all. He recommended several layouts and we agreed on one of them after several discussions. He considered all our requirements for appliances and built them in perfectly. In short, amazing work. Now a have a kitchen designer in my pocket and will use them every time I need anything for a kitchen."
+         },
+         {  "logo":"houzz",
+            "title":"missy941",
+            "text":"Vadzim was the perfect cabinetmaker.  He made cabinets throughout our entire home -- new kitchen with new island, family room, living room, media room, custom children's hallway, bathroom vanity, custom mantle, laundry room, and kitchen table.  He was also responsible for the finishing touches, such as the handrails on the stairs and the crown molding.  He was very responsive and turned around requests quickly.  He was thoughtful - in many cases more thoughtful than we were.  He really helped us think through the uses of the cabinetry and made excellent suggestions for improvement that integrated the design of our whole home.  For example he asked us to make the countertops thicker to ensure outlet plug strips were hidden.  His designs were perfect and thoughtful, down to the fraction of an inch.  He also crafted a custom table for us when we couldn't find a white oval table in the right dimensions.  Even with all of this excellent attention to detail and responsiveness, he was considerate of our budget.  For example we were able to re-use some old kitchen drawers with new faces, and he sent us a high-end and low-end set of hardware to choose from for a very large door.  Vadzim takes great pride in his work and is truly an artist with an appreciation for functionality.  The cabinetry is all beautiful and works perfectly - all of it.  We will absolutely use him again for every custom cabinetry need we have in the future."
+         }
+   ],
+       "yelp":[
+         { "logo":"yelp",
+            "title":"Rayn G.",
+            "text":"Vadzim did a bunch of things for us in our remodel.  New custom walnut dining table, new breakfast nook table tailor fit for an odd space, new built-in kitchen desk, some butcher block countertop, and a custom entertainment console built to match a desk we bought separately. Everything turned out superbly, and we've remarked to people that of all the many vendors we used in our remodel, the woodworking from Demiurge was both easiest to manage and the highest quality.  Vadzim himself is also very friendly and easy to work with.  He did an outstanding job matching our entertainment console to our office desk - it looks like they were made a matching set.  He also perfectly matched the kitchen built-ins to our cabinet color & finish.  It looks like it was all one seamless build, even though Vadzim was brought in to add on. We would highly recommend his work, and we'll definitely use him again for our next home project."
+         },
+         { "logo":"yelp",
+            "title":"L W.",
+            "text":"We recently completed an extensive remodel of our home in San Francsico and we were fortunate enough to have Demurge build the custom  cabinetry for our kitchen and bathrooms. As an Architect, I have worked with Vadzim on various projects over the past 10 years. He was by far my first choice for our project. There are several areas that set the craftsmanship at Demurge apart. Their measurements and shop drawings are meticulous making  fabrication and installations seamless. He and his team take pride in their work and and are eager to help trouble shoot complicated designs. Everyone at Demurge is a true professional,  always sticking to a schedule without fail. I honestly can recommend Demurge highly enough."
+         },
+         { "logo":"yelp",
+            "title":"Julia M.",
+            "text":"We did a remodel of our home in San Francisco.  Vadzim did a phenomenal job on our all our cabinets in the kitchen, bathrooms, and storage room.  His work is detailed, beautiful and durable. Vadzim is clear, very professional, on-time and reliable. I would recommend Vadzim to all my friends, family and people redoing their kitchen, bathroom etc."
+         }
+  ]
+   },
 "projectData": [
 {
     "projectName":"20th ave. San Francisco",
