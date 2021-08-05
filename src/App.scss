@@ -17,12 +17,14 @@ scroll-behavior: smooth;
   background-size: cover;
   @media only screen and (max-width: 1000px) {
     min-height:auto;
+    height: fit-content;
     }
   
 
   
   &-2{ 
     display: flex;
+    position:relative;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -33,10 +35,16 @@ scroll-behavior: smooth;
     background-size: cover;
     box-shadow: 4px 4px 8px 0px rgba(76, 155, 216, 0.401);
     margin: 10px 0px;
-    background-image: url('./assets/different/ross residence kitchen(high gross paint).jpg');  
-    @media only screen and (max-width: 700px) {
-      min-height:auto}
+    background-image: url('./assets/different/ross residence kitchen(high gross paint).jpg'); 
+
+      @media only screen and (max-width: 700px) {
+      min-height:auto;}
+      
+      @media only screen and (max-height: 450px) {
+      min-height:150vh;}
+  
   }
+  
   &-3{
     width: 100%;
     height: 100vh;

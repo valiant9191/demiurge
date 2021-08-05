@@ -1,0 +1,23 @@
+.fotoCard{
+    border: 2px solid honeydew;
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: rgba(240, 255, 240, 0.6);
+        overflow: hidden;transition: 1s;
+
+    &-active{
+        box-shadow: 0px -0px 4px 4px rgba(122, 255, 211, 0.7);
+        transform: scale(1.2);
+    }
+    &-img{
+        
+       max-height: 500px;  
+       height: 100%;
+       width:100%;
+    }
+    
+}

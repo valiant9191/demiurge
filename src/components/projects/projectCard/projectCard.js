@@ -52,21 +52,36 @@ function carouselImage(){
 
 
 
+// gallery of images after main img depend on width
+const imgBlockBottom =()=>{if(window.outerWidth>=1000){
+    return(
+     <div className="imgBlockBottom">
+            {imageSrc.map((el,id)=>(
+                <FotoCard active={active(id)} key={id} props={el} />
+            ))}
+        </div> 
+)}
+}
+const sliderIcons =()=>{if(window.outerWidth<1000){
+    return(
+        <div className='project-description'>
+        {imageSrc.map((el,id)=>
+            <div key={id} className={`slider slider-${active(id)}` }></div>
+        )}
+        
+    </div> 
+)}
+}
+
+
+
     return(
         <div className='project'>
             {carouselImage()}               
-        <div className='project-description'>
-            {imageSrc.map((el,id)=>
-                <div key={id} className={`slider slider-${active(id)}` }></div>
-            )}
-            
-        </div>
-        {/* <div>
-            {imageSrc.map((el,id)=>(
-                <FotoCard key={id} props={el} />
-            ))}
-        </div> */}
-    </div>
+            {sliderIcons()}
+            {imgBlockBottom()}
+        
+         </div>
     )
 }
 export default ProjectCard;

@@ -1,10 +1,11 @@
 import React from 'react';
 
-const FotoCard = ({props}) =>{
-    console.log(props)
+import './style.scss'
+
+const FotoCard = ({props,active}) =>{
     return(
-        <div className="fotoCard">
-            <img src={props}  alt={props.toString()}/>
+        <div className={`fotoCard fotoCard-${active}`}>
+            <img className={`fotoCard-img fotoImg-${active} ` } src={props}  alt={props.toString()}/>
         </div>
     )
 }
