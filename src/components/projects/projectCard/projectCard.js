@@ -1,4 +1,11 @@
 import React, { useState } from 'react';
+
+import FotoCard from './fotoCard/fotocard';
+import LeftArrow from '../../../assets/angle-pointing-to-left.svg'
+import RightArrow from '../../../assets/angle-arrow-pointing-to-right.svg'
+
+
+
 import './style.scss'
 
 
@@ -17,17 +24,17 @@ function carouselImage(){
     if(imageLib===0){
         return(
             <div className='project-image'>
-                <img className='project-image-first' onClick={()=>{clickable(imageSrc.length-1)}} src={imageSrc[imageSrc.length-1]} alt='center 3'/>
                 <img className='project-image-main' src={imageSrc[imageLib]} alt='center 2'/>
-                <img className='project-image-first' onClick={()=>{clickable(imageLib+1)}} src={imageSrc[imageLib+1]} alt='center 1'/>               
+                <img className='project-image-first project-image-first-left' onClick={()=>{clickable(imageSrc.length-1)}} src={LeftArrow} alt='left arrow'/>
+                <img className='project-image-first project-image-first-right' onClick={()=>{clickable(imageLib+1)}} src={RightArrow} alt='right arrow'/>               
         </div>
         )}     else if(imageLib===imageSrc.length-1){
         return(
             
-        <div className='project-image'>        
-            <img className='project-image-first' onClick={()=>{clickable(imageLib-1)}} src={imageSrc[imageLib-1]} alt='center 1'/>
-            <img className='project-image-main' src={imageSrc[imageLib]} alt='center 2'/>  
-            <img className='project-image-first' onClick={()=>{clickable(0)}} src={imageSrc[0]} alt='center 3'/>   
+        <div className='project-image'>
+            <img className='project-image-main' src={imageSrc[imageLib]} alt='center 2'/>          
+            <img className='project-image-first project-image-first-left' onClick={()=>{clickable(imageLib-1)}} src={LeftArrow} alt='left arrow'/>
+            <img className='project-image-first project-image-first-right' onClick={()=>{clickable(0)}} src={RightArrow} alt='right arrow'/>   
         </div>
         )}  
         else if(imageLib>imageSrc.length-1){
@@ -35,10 +42,10 @@ function carouselImage(){
         }      
         else{
             return(
-            <div className='project-image'>        
-            <img className='project-image-first' onClick={()=>{clickable(imageLib-1)}} src={imageSrc[imageLib-1]} alt='center 1'/>
-            <img className='project-image-main' src={imageSrc[imageLib]} alt='center 2'/>  
-            <img className='project-image-third' onClick={()=>{clickable(imageLib+1)}} src={imageSrc[imageLib+1]} alt='center 3'/>   
+            <div className='project-image'>
+            <img className='project-image-main' src={imageSrc[imageLib]} alt='center 2'/>          
+            <img className='project-image-first project-image-first-left' onClick={()=>{clickable(imageLib-1)}} src={LeftArrow} alt='center 1'/>
+            <img className='project-image-first project-image-first-right' onClick={()=>{clickable(imageLib+1)}} src={RightArrow} alt='right arrow'/>   
         </div>)
         }
 }
@@ -54,6 +61,11 @@ function carouselImage(){
             )}
             
         </div>
+        {/* <div>
+            {imageSrc.map((el,id)=>(
+                <FotoCard key={id} props={el} />
+            ))}
+        </div> */}
     </div>
     )
 }

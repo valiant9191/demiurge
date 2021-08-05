@@ -28,12 +28,22 @@
         @media only screen and (max-width: 500px) {
           margin:0;
           font-size: 15px;}
-    //   left: 300px;
+
+    &-intro{
+      margin: 50px 40px;
+      font-size: 28px;
+      @media only screen and (max-width: 1000px) {
+        margin:none;
+        font-size: 18px;}
+        @media only screen and (max-width: 500px) {
+          margin:5px;
+          font-size: 12px;}
+    }
+
     &-title{
         margin: 15px;
     }
     &-main{
-        // margin-right: 200px;
         margin-left: 70px;
         @media only screen and (max-width: 500px) {
           margin:0;

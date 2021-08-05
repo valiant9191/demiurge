@@ -28,6 +28,9 @@ const Description = () => {
                     <p className='description-text-main'>We Create Best, our Main is Quality!</p>
 
                 </div>
+
+                <div className="description-text description-text-intro"><p>Demiurge, modern cabinets & kitchens,  we combine traditional craftsmanship with modern functionality,modern cabinets & kitchens, minimalistic and highly functional with dramatic angles and flowing curves.
+</p></div>
                 <div className='review-row'>
                 {reviewData.yelp.map((el,id)=>
                     <Review 

@@ -14,10 +14,10 @@ scroll-behavior: smooth;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   @media only screen and (max-width: 1000px) {
-    height:auto}
+    min-height:auto;
+    }
   
 
   
@@ -30,7 +30,6 @@ scroll-behavior: smooth;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 4px 4px 8px 0px rgba(76, 155, 216, 0.401);
     margin: 10px 0px;
@@ -54,7 +53,3 @@ scroll-behavior: smooth;
 
 
 }
-
-
-
-

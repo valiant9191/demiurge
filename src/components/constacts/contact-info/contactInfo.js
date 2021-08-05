@@ -7,7 +7,7 @@ import demiurgeLogo from '../../../assets/demiurge-png.png'
 const ContactInfo=()=>{
     return(
         <div className="contact info">
-            <img className="contact-img" src={demiurgeLogo}></img>
+            <img className="contact-img" src={demiurgeLogo} alt="demiurge-logo"></img>
             <div className="contact-block">
                 <div className="contact">
                 <div className="contact section">
