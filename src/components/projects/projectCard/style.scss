@@ -3,15 +3,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:80%;
+    height:100%;
     width: 65%;
 
     &-image{
         position: relative;
-
-
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;        
         width: 100%;
         height: auto;
@@ -21,16 +19,26 @@
         margin-bottom: auto;
         margin-left: auto;
         transition: ease-in-out 2s;
+        @media only screen and (min-width: 750px) {
+            max-height: none;           
+        }
+
         &-first{
             position: absolute;
             width: 20px;
             height: 20px;
             border-radius: 20%;
             overflow: hidden;            
-            background-color: rgba(240, 248, 255, 0.9);
+            background-color: rgba(240, 248, 255, 0.8);
             border:2px solid  honeydew;
+            @media only screen and (min-width: 850px) {
+                width: 40px;
+                height: 40px;          
+            }
+            
             &-left{
                 left:0;
+                
             }
             &-right{
                 right: 0;
@@ -44,9 +52,10 @@
             overflow: hidden;            
             margin: 10px;
             box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.2);
-
+            @media only screen and (min-width: 800px) {
+                max-height: 95vh;       
+            }
         }
-
     }
     &-description{
         display: flex;
@@ -54,9 +63,9 @@
         height: 40px;
         width: 300px;
         margin: 5px;
+
         @media only screen and (max-width: 1000px) {
-            width:auto;
-           
+            width:auto;           
         }
     }
 }
@@ -66,6 +75,7 @@
     margin: auto;
     border-radius: 50%;
     background-color:honeydew;
+
     &-active{
         height: 13px;
         width: 13px;
