@@ -51,13 +51,13 @@ function carouselImage(){
 }
 
 
-
 // gallery of images after main img depend on width
 const imgBlockBottom =()=>{if(window.outerWidth>=1000){
+
     return(
      <div className="imgBlockBottom">
-            {imageSrc.map((el,id)=>(
-                <FotoCard active={active(id)} key={id} props={el} />
+            {imageSrc.map((el,id)=>( 
+                <FotoCard active={active(id)} key={id} props={el} clickable={clickable} id={id} />
             ))}
         </div> 
 )}

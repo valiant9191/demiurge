@@ -17,8 +17,7 @@ const Description = () => {
     const buttonActiveLog=(e)=>{
         result===e?setResult(0):setResult(e)
     }
-
-
+    const[showReview,setShowReview]=useState(false)
 
     return(
         <section>
@@ -29,30 +28,39 @@ const Description = () => {
 
                 </div>
 
-                <div className="description-text description-text-intro"><p>Demiurge, modern cabinets & kitchens,  we combine traditional craftsmanship with modern functionality,modern cabinets & kitchens, minimalistic and highly functional with dramatic angles and flowing curves.
-</p></div>
-                <div className='review-row'>
-                {reviewData.yelp.map((el,id)=>
-                    <Review 
-                        key={id+el.logo}
-                        checkKeys={id+el.logo} 
-                        result={result} 
-                        review={el}  
-                        buttonActiveLog={()=>buttonActiveLog(id+el.logo)} 
-                        />)
-                }
+                <div className="description-text description-text-intro">
+                    <p>Modern cabinets & kitchens,  we combine traditional craftsmanship with modern functionality,modern cabinets & kitchens, minimalistic and highly functional with dramatic angles and flowing curves.
+                    </p>
                 </div>
-                <div className='review-row'>
-                {reviewData.houzz.map((el,id)=>
-                    <Review 
-                        key={id+el.logo}
-                        checkKeys={id+el.logo} 
-                        result={result} 
-                        review={el}  
-                        buttonActiveLog={()=>buttonActiveLog(id+el.logo)} 
-                        />)
-                }
+                <div className="description-text description-text-button" onClick={()=>setShowReview(!showReview)}>
+                    <p className="description-text-button-text">{!showReview?"Reviews: ":" Close Reviews "}</p>
                 </div>
+                {showReview? <div className='review-row'>
+                    {reviewData.yelp.map((el,id)=>
+                        <Review 
+                            key={id+el.logo}
+                            checkKeys={id+el.logo} 
+                            result={result} 
+                            review={el}  
+                            buttonActiveLog={()=>buttonActiveLog(id+el.logo)} 
+                        />)
+                    }
+                    </div>
+                    :null}
+
+                {showReview?
+                    <div className='review-row'>
+                    {reviewData.houzz.map((el,id)=>
+                        <Review 
+                            key={id+el.logo}
+                            checkKeys={id+el.logo} 
+                            result={result} 
+                            review={el}  
+                            buttonActiveLog={()=>buttonActiveLog(id+el.logo)} 
+                        />)
+                    }
+                    </div>
+                :null}
       
         </section>
     )

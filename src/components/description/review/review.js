@@ -15,7 +15,7 @@ const Review = ({review, buttonActiveLog, result, checkKeys,}) => {
 let check;
 (review.logo==='houzz')?check=false:check=true;
 function checkAlt() {if(check){return('Yelp-Logo')}else{return('Houzz-Logo')}}
-function checkSrc() {if(check){ return (yelp)} else{return(houzz)}}
+function checkSrc() {if(!check){ return (yelp)} else{return(houzz)}}
 const checkUrlFn=(e)=>{
         if(check){window.location.href='https://www.houzz.com/pro/vadzimboltach/demiurge'}
         else{ window.location.href='https://www.yelp.com/biz/demiurge-san-francisco'}

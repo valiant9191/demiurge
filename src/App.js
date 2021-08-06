@@ -16,7 +16,7 @@ function App() {
 
      <Navigation/>
 
-     <section className='background' id='home'>
+     <section className='background' id='home' >
         <Description />
       </section>
 
