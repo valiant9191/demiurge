@@ -12,9 +12,9 @@ const ContactInfo=()=>{
                 <div className="contact">
                 <div className="contact section">
                     <h1>PHONE:</h1>
-                    <p>(650) 521-7406</p>
+                    <p><a href='tel:(650) 521-7406'>(650) 521-7406</a></p>
                     <h1>E-mail:</h1>
-                    <p>demiurge@demiurge.com</p>
+                    <p><a href='mailto:vadzim@demiurgesf.com'>vadzim@demiurgesf.com</a></p>
                 </div>
                 <div className="contact section">
                     <h1>Business Hours:</h1>
